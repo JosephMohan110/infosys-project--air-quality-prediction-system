@@ -1,0 +1,35 @@
+# Core scientific stack
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+
+# Visualization
+matplotlib==3.9.0
+seaborn==0.13.2
+plotly==5.22.0
+
+# Machine learning
+scikit-learn==1.5.0
+xgboost==2.0.3
+lightgbm==4.3.0
+joblib==1.4.2
+
+# Deep learning
+tensorflow==2.16.1
+keras==3.3.3
+
+# Time-series forecasting
+prophet==1.1.5
+statsmodels==0.14.2
+
+# Utilities
+tqdm==4.66.4
+pyyaml==6.0.2
+
+# For dashboards / web UI (optional, if you want Flask UI later)
+flask==3.0.3
+flask-cors==4.0.0
+
+# Jupyter environment
+ipykernel==6.29.4
+notebook==7.1.3
