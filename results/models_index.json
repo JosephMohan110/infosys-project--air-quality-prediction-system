@@ -1,0 +1,22 @@
+[
+  {
+    "filename": "lstm_Ahmedabad_PM2.5.keras",
+    "size_bytes": 270364
+  },
+  {
+    "filename": "lstm_model_Ahmedabad_PM2.5.keras",
+    "size_bytes": 270364
+  },
+  {
+    "filename": "prophet_model.pkl",
+    "size_bytes": 31779
+  },
+  {
+    "filename": "rf_Ahmedabad_PM2.5.joblib",
+    "size_bytes": 1400208
+  },
+  {
+    "filename": "xgb_Ahmedabad_PM2.5.pkl",
+    "size_bytes": 216760
+  }
+]
