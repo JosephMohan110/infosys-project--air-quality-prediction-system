@@ -1,0 +1,95 @@
+info-project/
+│
+├── data/
+│   ├── raw/
+│   │   ├── city_day.csv
+│   │   ├── city_hour.csv
+│   │   ├── station_day.csv
+│   │   ├── station_hour.csv
+│   │   ├── stations.csv
+│   │   └── ...
+│   ├── processed/
+│   │   ├── processed_city_day.csv
+│   │   ├── processed_city_hour.csv
+│   │   ├── processed_station_day.csv
+│   │   ├── processed_station_hour.csv
+│   │   ├── sample_city_day.csv
+│   │   ├── sample_city_hour.csv
+│   │   ├── sample_station_day.csv
+│   │   ├── sample_station_hour.csv
+│   │   ├── sample_aqi.csv
+│   │   └── sample_pollutants.csv
+│
+├── models/
+│   ├── best_model_city_hour_xgb.pkl
+│   ├── best_model_prophet.pkl
+│   ├── best_model_xgb.pkl
+│   ├── lstm_Ahmedabad_PM2.5.keras
+│   ├── lstm_demo_TestCity.h5
+│   ├── lstm_model_Ahmedabad_PM2.5.kears
+│   ├── lstm_multi.h5
+│   ├── lstm_multioutput.h5
+│   ├── station_AP005_rf.pkl
+│   ├── station_BR006_rf.pkl
+│   ├── station_BR008_rf.pkl
+│   ├── station_DL001_xgb.pkl
+│   ├── station_HR012_rf.pkl
+│   ├── station_PB001_xgb.pkl
+│   ├── station_TG001_xgb.pkl
+│   ├── station_TG002_xgb.pkl
+│   ├── station_TG003_xgb.pkl
+│   ├── station_TG004_xgb.pkl
+│   ├── station_TG006_xgb.pkl
+│   ├── station_WB007_rf.pkl
+│   ├── station_WB009_xgb.pkl
+│   ├── station_WB010_rf.pkl
+│   ├── xgb_Ahmedabad_PM2.5.pkl
+│   └── xgb_Delhi_PM25.pkl
+│
+├── results/
+│   ├── alerts.csv
+│   ├── alert_summary.csv
+│   ├── best_models.csv
+│   ├── forecasts_aqi.csv
+│   ├── forecasts.csv
+│   ├── model_performance.csv
+│   ├── model_summary.csv
+│  ├── forecasts/
+│      ├── forecast_Ahmedabad_CO.csv
+│      ├── forecast_Ahmedabad_NO.csv
+│      ├── forecast_Ahmedabad_NO2.csv
+│      ├── forecast_Ahmedabad_O3.csv
+│      ├── forecast_Aizawl_CO.csv
+│      ├── forecast_Aizawl_NO.csv
+│      ├── forecast_Aizawl_NO2.csv
+│      ├── forecast_Aizawl_O3.csv
+│      ├── ...
+│      └── forecast_metrics_summary.csv
+│
+├── reports/
+│   ├── aqi_heatmap.png
+│   ├── aqi_trend.png
+│   ├── station_performance.png
+│   ├── pollutant_correlation.png
+│   ├── seasonal_patterns.png
+│   ├── forecast_comparison.png
+│   └── residuals_overview.png
+│
+├── notebooks/
+│   ├── 01_milestone1.ipynb
+│   ├── 02_milestone2.ipynb
+│   ├── 03_milestone3.ipynb
+│   └── 04_milestone4.ipynb
+│
+├── streamlit/
+│   ├── app.py
+│   ├── milestone3.py
+│   └── milestone4.py
+│
+├── src/
+│   
+│
+├── requirements.txt
+├── fix-folder.py
+├── folder_structure.txt
+└── README.md
